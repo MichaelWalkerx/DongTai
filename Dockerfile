@@ -1,4 +1,4 @@
-FROM python:3.7-slim
+FROM python:3.13.0a4-slim
 ARG VERSION
 ENV DEBIAN_FRONTEND=noninteractive
 ENV LANG=en_US.UTF-8
